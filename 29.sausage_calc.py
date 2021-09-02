@@ -21,4 +21,3 @@ print('Cосисок останется: ', remain_sausage)
 
 
 
-
