@@ -5,6 +5,3 @@ print('__________________________')
 for x in range(1, time + 1):
     s = v * x
     print(x, '\t', s)
-
-
-
