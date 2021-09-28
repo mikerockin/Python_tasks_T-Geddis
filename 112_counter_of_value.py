@@ -3,10 +3,11 @@ def main():
     line = infile.readline()
     line_read = 0
     while line != '':
-        line_read +=1
-        print(line)
+        print(line.rstrip('\n'))
         line = infile.readline()
-
+        line_read += 1
+    print(line_read)
 
     infile.close()
+
 main()
