@@ -1,12 +1,10 @@
 def main():
-    infile = open('names.txt', 'r')
+    infile = open('num.txt', 'r')
     line = infile.readline()
-    line_read = 0
+    sum = 0
     while line != '':
-        line_read +=1
-        print(line)
+        sum = sum + int(line.rstrip('\n'))
         line = infile.readline()
-
-
+    print(sum)
     infile.close()
 main()
