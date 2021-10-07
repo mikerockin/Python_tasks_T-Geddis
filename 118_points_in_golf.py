@@ -27,4 +27,21 @@ def read():
     infile.close()
 main()
 
+while line != '':
+    answer += 1
+    line = line.rstrip('\n')
+    print('Answer №', answer, line)
+    line = infile.readline()
+infile.close()
 
+ef read_readlines():
+    answer = 0
+    print('Данные полученных ответов считаны:')
+    infile = open('user_answers.txt', 'r')
+    line = infile.readlines()
+    while line != '':
+        answer += 1
+        line = line.rstrip('\n')
+        print('Answer №', answer, line)
+        line = infile.readline()
+    infile.close()
