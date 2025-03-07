@@ -66,7 +66,7 @@ def change(mycontacts):
     if name in mycontacts:
         phone = input('Введите новый телефонный номер')
         email = input('Введите новый электронный адрес')
-        entry = contact.Contact(name,phone,email)
+        entry = contact.Contact(name, phone, email)
         mycontacts[name] = entry
         print('Информация обновлена')
     else:
