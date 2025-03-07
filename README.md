@@ -1,3 +1,3 @@
-# Решенные задачи к книге "Начинаем программировать на Python | Гэддис Тони"
+# Solved tasks for the book "Getting Started with Python Programming | Gaddis Tony"
 
 
