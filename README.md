@@ -1,3 +1,3 @@
-# Solved tasks for the book "Getting Started with Python Programming | Gaddis Tony"
+## Solved tasks for the book "Getting Started with Python Programming | Gaddis Tony"
 
 
